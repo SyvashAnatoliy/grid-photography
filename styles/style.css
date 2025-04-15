@@ -88,13 +88,13 @@ button{
 }
 
 .like{
-  background-image: url(./images/icons/like.png);
+  background-image: url(../images/icons/like.png);
   background-size: cover;
   background-position: center;
 }
 
 .save{
-  background-image: url(./images/icons/save.png);
+  background-image: url(../images/icons/save.png);
   background-size: cover;
   background-position: center;
 }
@@ -118,116 +118,116 @@ button:nth-child(2){
 
 .architecture {
   li:nth-child(1) {
-    background-image: url(./images/jezael.png);
+    background-image: url(../images/jezael.png);
     background-size: cover;
   }
 
   li:nth-child(2) {
-    background-image: url(./images/tom-w.png);
+    background-image: url(../images/tom-w.png);
     background-size: cover;
   }
 
   li:nth-child(3) {
-    background-image: url(./images/johan-m.png);
+    background-image: url(../images/johan-m.png);
     background-size: cover;
   }
 
   li:nth-child(4) {
-    background-image: url(./images/federico-di.png);
+    background-image: url(../images/federico-di.png);
     background-size: cover;
   }
 
   li:nth-child(5) {
-    background-image: url(./images/casey-h.png);
+    background-image: url(../images/casey-h.png);
     background-size: cover
   }
 
   li:nth-child(6) {
-    background-image: url(./images/alexander-r.png);
+    background-image: url(../images/alexander-r.png);
     background-size: cover;
   }
 }
 
 .still-life {
   li:nth-child(1) {
-    background-image: url(./images/robert-l.png);
+    background-image: url(../images/robert-l.png);
     background-size: cover;
   }
 
   li:nth-child(2) {
-    background-image: url(./images/sean-o.png);
+    background-image: url(../images/sean-o.png);
     background-size: cover;
   }
 
   li:nth-child(3) {
-    background-image: url(./images/john-f.png);
+    background-image: url(../images/john-f.png);
     background-size: cover;
   }
 
   li:nth-child(4) {
-    background-image: url(./images/dave-h.png);
+    background-image: url(../images/dave-h.png);
     background-size: cover;
   }
 
   li:nth-child(5) {
-    background-image: url(./images/leonard-c.png);
+    background-image: url(../images/leonard-c.png);
     background-size: cover;
   }
 
   li:nth-child(6) {
-    background-image: url(./images/rob-m.png);
+    background-image: url(../images/rob-m.png);
     background-size: cover;
   }
 }
 
 .portrait-fashion {
   li:nth-child(1) {
-    background-image: url(./images/pooja-c.png);
+    background-image: url(../images/pooja-c.png);
     background-size: cover;
   }
 
   li:nth-child(2) {
-    background-image: url(./images/seth-d2.png);
+    background-image: url(../images/seth-d2.png);
     background-size: cover;
   }
 
   li:nth-child(3) {
-    background-image: url(./images/devn.png);
+    background-image: url(../images/devn.png);
     background-size: cover;
   }
 
   li:nth-child(4) {
-    background-image: url(./images/dom-h.png);
+    background-image: url(../images/dom-h.png);
     background-size: cover;
   }
 
   li:nth-child(5) {
-    background-image: url(./images/sincerely-m.png);
+    background-image: url(../images/sincerely-m.png);
     background-size: cover;
   }
 
   li:nth-child(6) {
-    background-image: url(./images/seth-d.png);
+    background-image: url(../images/seth-d.png);
     background-size: cover;
   }
 
   li:nth-child(7) {
-    background-image: url(./images/noah-b.png);
+    background-image: url(../images/noah-b.png);
     background-size: cover;
   }
 
   li:nth-child(8) {
-    background-image: url(./images/melissa-a.png);
+    background-image: url(../images/melissa-a.png);
     background-size: cover;
   }
 
   li:nth-child(9) {
-    background-image: url(./images/brooke-c.png);
+    background-image: url(../images/brooke-c.png);
     background-size: cover;
   }
 
   li:nth-child(10) {
-    background-image: url(./images/clem-o.png);
+    background-image: url(../images/clem-o.png);
     background-size: cover;
   }
 }
