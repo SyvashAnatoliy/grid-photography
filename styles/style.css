@@ -1,0 +1,233 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 80px;
+    font-family: 'Delius Unicase', sans-serif;
+    color: black;
+  }
+
+ul {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-auto-rows: 370px;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    background-color: darkseagreen;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: space-between;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+} 
+
+li::before, li::after {
+  content: '';
+  display: block;
+  background: linear-gradient(to top, #241f24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%);
+  position: absolute;
+  inset: 0;
+  transition: 400ms;
+  pointer-events: none;
+}
+
+b,
+time {
+  z-index: 1;
+}
+
+:hover>b,
+:hover>time {
+  opacity: 70%;
+}
+
+li::after {
+  background: linear-gradient(to top, #241f24 0%, rgba(91, 91, 91, 0.45) 34.11%, rgba(187, 186, 192, 0.26) 62.5%);
+}
+
+li:not(:hover)::before,
+li:hover::after {
+  opacity: 0;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.wide-tall {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+button{
+  border: none;
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.like{
+  background-image: url(/images/icons/like.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.save{
+  background-image: url(/images/icons/save.png);
+  background-size: cover;
+  background-position: center;
+}
+
+:not(:hover)>button{
+  opacity: 0;
+}
+
+:hover>button{
+  opacity: 0.5;
+}
+
+button:hover{
+  opacity: 1;
+  transition: 400ms;
+}
+
+button:nth-child(2){
+  margin-left: auto;
+}
+
+.architecture {
+  li:nth-child(1) {
+    background-image: url(/images/jezael.png);
+    background-size: cover;
+  }
+
+  li:nth-child(2) {
+    background-image: url(/images/tom-w.png);
+    background-size: cover;
+  }
+
+  li:nth-child(3) {
+    background-image: url(/images/johan-m.png);
+    background-size: cover;
+  }
+
+  li:nth-child(4) {
+    background-image: url(/images/federico-di.png);
+    background-size: cover;
+  }
+
+  li:nth-child(5) {
+    background-image: url(/images/casey-h.png);
+    background-size: cover
+  }
+
+  li:nth-child(6) {
+    background-image: url(/images/alexander-r.png);
+    background-size: cover;
+  }
+}
+
+.still-life {
+  li:nth-child(1) {
+    background-image: url(/images/robert-l.png);
+    background-size: cover;
+  }
+
+  li:nth-child(2) {
+    background-image: url(/images/sean-o.png);
+    background-size: cover;
+  }
+
+  li:nth-child(3) {
+    background-image: url(/images/john-f.png);
+    background-size: cover;
+  }
+
+  li:nth-child(4) {
+    background-image: url(/images/dave-h.png);
+    background-size: cover;
+  }
+
+  li:nth-child(5) {
+    background-image: url(/images/leonard-c.png);
+    background-size: cover;
+  }
+
+  li:nth-child(6) {
+    background-image: url(/images/rob-m.png);
+    background-size: cover;
+  }
+}
+
+.portrait-fashion {
+  li:nth-child(1) {
+    background-image: url(/images/pooja-c.png);
+    background-size: cover;
+  }
+
+  li:nth-child(2) {
+    background-image: url(/images/seth-d2.png);
+    background-size: cover;
+  }
+
+  li:nth-child(3) {
+    background-image: url(/images/devn.png);
+    background-size: cover;
+  }
+
+  li:nth-child(4) {
+    background-image: url(/images/dom-h.png);
+    background-size: cover;
+  }
+
+  li:nth-child(5) {
+    background-image: url(/images/sincerely-m.png);
+    background-size: cover;
+  }
+
+  li:nth-child(6) {
+    background-image: url(/images/seth-d.png);
+    background-size: cover;
+  }
+
+  li:nth-child(7) {
+    background-image: url(/images/noah-b.png);
+    background-size: cover;
+  }
+
+  li:nth-child(8) {
+    background-image: url(/images/melissa-a.png);
+    background-size: cover;
+  }
+
+  li:nth-child(9) {
+    background-image: url(/images/brooke-c.png);
+    background-size: cover;
+  }
+
+  li:nth-child(10) {
+    background-image: url(/images/clem-o.png);
+    background-size: cover;
+  }
+}
